@@ -18,3 +18,5 @@ The work-flow can be set-up this way:
   - Put a ROM file of SNES Toy Story in the same folder as well and rename it to TS1.SMC.
   - Run "asmpatch.exe TOYLINK.M32", preferably through a command line so that any potential errors are visible. You can also drag the linker file onto the executable.
   - A secondary rom file TS2.SMC should now have been created, this is the patched ROM file.
+
+Add new patches by including *PUT FILE.ASM* into **MAIN.ASM**
