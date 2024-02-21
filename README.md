@@ -1,8 +1,14 @@
 # Toy Story Patches
 This repo contains various patches for Disney's Toy Story. For now, only the US SNES version is supported.
 
-### Level Editor
+There are two important things to consider:
+  - Some patches may be dependant on each other, calling each others functions.
+  - Conflicts can occur if two patches are storing code at the same location.
+
+### Description
 **EDITOR.ASM** is an in-game level editor.
+**INTROSKIP.ASM** makes the game jump to the level loading screen right from power-on.
+**DEATH.ASM** disables dying.
 
 ## How to use
 These ASM patches are meant to be used with a [patch assembler](http://infinitefactors.org/jonk/patch.html). 
