@@ -7,8 +7,9 @@ There are two important things to consider:
 
 ### Description
   - **EDITOR.ASM** is an in-game level editor.
-  - **INTROSKIP.ASM** makes the game jump to the level loading screen right from power-on.
   - **DEATH.ASM** disables dying.
+  - **INTROSKIP.ASM** makes the game jump to the level loading screen right from power-on.
+  - **LEVELSKIP.ASM** adds level skip functionality to the pause menu by pressing shoulder L or R. The player can also respawn and jump between checkpoints.
 
 ## How to use
 These ASM patches are meant to be used with a [patch assembler](http://infinitefactors.org/jonk/patch.html). 
