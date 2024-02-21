@@ -1,0 +1,8 @@
+            RMI     TS1.SMC
+            RMO     TS2.SMC
+            MAP     4MB $000000 $3FFFFF
+            
+            SEG     TEST
+            ROM     4MB
+            ORG     $000000
+            ASM     MAIN.ASM
